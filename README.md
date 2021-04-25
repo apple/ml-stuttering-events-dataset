@@ -1,5 +1,5 @@
 
-# SEP-28k Dataset (Stuttering Events in Podcasts)
+# Stuttering Events in Podcasts Dataset (SEP-28k) 
 
 The SEP-28k dataset contains stuttering event annotations for approximately 28,000 3-second clips. In addition we include stutter event annotations for about 4,000 3-second clips from the FluencyBank dataset. Audio files are not part of this released dataset but may be downloaded using URLs provided in the `*_episodes.csv` files. Original copyright remains with the podcast owners. 
 
