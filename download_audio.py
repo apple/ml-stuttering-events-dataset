@@ -74,15 +74,4 @@ for i in range(n_items):
 	process.wait()
 
 	# Remove the original mp3/m4a file
-	line = f"rm {audio_path_orig}"
-	process = subprocess.Popen([(line)],shell=True)
-	process.wait()
-
-
-
-
-
-
-
-
-
+	os.remove(audio_path_orig)
