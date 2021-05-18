@@ -19,15 +19,15 @@ import numpy as np
 import argparse
 
 parser = argparse.ArgumentParser(description='Download raw audio files for SEP-28k or FluencyBank and convert to 16k hz mono wavs.')
-parser.add_argument('--episodes', type=str, 
+parser.add_argument('--episodes', type=str, required=True,
                    help='Path to the labels csv files (e.g., SEP-28k_episodes.csv)')
-parser.add_argument('--wavs', type=str, 
+parser.add_argument('--wavs', type=str, default="wavs",
                    help='Path where audio files from download_audio.py are saved')
 
 
 args = parser.parse_args()
 episode_uri = args.episodes
-data_dir = args.wavs
+wav_dir = args.wavs
 
 # Load episode data
 table = np.loadtxt(episode_uri, dtype=str, delimiter=", ")
@@ -50,7 +50,7 @@ for i in range(n_items):
 			break
 
 	# Ensure the base folder exists for this episode
-	episode_dir = pathlib.Path(f"{data_dir}/wavs/{show_abrev}/")
+	episode_dir = pathlib.Path(f"{wav_dir}/{show_abrev}/")
 	os.makedirs(episode_dir, exist_ok=True)
 
 	# Get file paths
@@ -60,9 +60,9 @@ for i in range(n_items):
 	# Check if this file has already been downloaded
 	if os.path.exists(wav_path):
 		continue
-	
+
 	print("Processing", show_abrev, ep_idx)
-	# Download raw audio file. This could be parallelized. 
+	# Download raw audio file. This could be parallelized.
 	if not os.path.exists(audio_path_orig):
 		line = f"wget -O {audio_path_orig} {episode_url}"
 		process = subprocess.Popen([(line)],shell=True)
