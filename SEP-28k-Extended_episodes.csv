@@ -1,0 +1,386 @@
+url,Show,EpId,host,guest,num_spk,true_num_spk_known,host_gender,guest_gender,all_samples_above_avg_silhouette,calinski_harabasz_score,cosine_dist
+ https://stutterrockstar.files.wordpress.com/2011/05/male-episode-1-with-alan1.mp3, HeStutters,0,Pamela Mertz,alan1,2,True,f,m,True,25.94802639621924,0.4055542349815368
+ https://stutterrockstar.files.wordpress.com/2012/04/male-episode-10-with-landon.mp3, HeStutters,1,Pamela Mertz,landon,2,True,f,m,True,150.36259555786225,0.4593984484672546
+ https://stutterrockstar.files.wordpress.com/2012/05/male-episode-11-with-frank.mp3, HeStutters,2,Pamela Mertz,frank,2,True,f,m,True,205.12755077712023,0.5001191794872284
+ https://stutterrockstar.files.wordpress.com/2012/05/male-episode-12-with-lott1.mp3, HeStutters,3,Pamela Mertz,lott1,2,True,f,m,True,30.446863983578265,0.4563185572624206
+ https://stutterrockstar.files.wordpress.com/2012/06/male-episode-13-with-juan-ali.mp3, HeStutters,4,Pamela Mertz,juan-ali,2,True,f,m,True,43.87990832616472,0.4386702179908752
+ https://stutterrockstar.files.wordpress.com/2012/08/male-episode-14-with-grant.mp3, HeStutters,5,Pamela Mertz,grant,2,True,f,m,True,198.09468043296096,0.4268293380737304
+ https://stutterrockstar.files.wordpress.com/2012/08/male-episode-15-with-hanan.mp3, HeStutters,6,Pamela Mertz,hanan,2,True,f,m,True,406.2124805203866,0.4874708652496338
+ https://stutterrockstar.files.wordpress.com/2012/09/male-episode-16-with-geoff.mp3, HeStutters,7,Pamela Mertz,geoff,2,True,f,m,False,35.185038204312235,0.4428874254226684
+ https://stutterrockstar.files.wordpress.com/2012/09/male-episode-17-with-robert.mp3, HeStutters,8,Pamela Mertz,robert,2,True,f,m,True,370.2738762457295,0.4224047064781189
+ https://stutterrockstar.files.wordpress.com/2012/11/male-episode-18-with-ray.mp3, HeStutters,9,Pamela Mertz,ray,2,True,f,m,False,25.81393291668597,0.4666877388954162
+ https://stutterrockstar.files.wordpress.com/2012/11/male-episode-19-with-john-h.mp3, HeStutters,10,Pamela Mertz,john-h,2,True,f,m,True,8.519445546900197,0.8013947755098343
+ https://stutterrockstar.files.wordpress.com/2011/07/male-episode-2-with-henryk.mp3, HeStutters,11,Pamela Mertz,henryk,2,True,f,m,True,302.9474898593833,0.4586660265922546
+ https://stutterrockstar.files.wordpress.com/2014/02/male-episode-20-with-oli.mp3, HeStutters,12,Pamela Mertz,oli,2,True,f,m,True,283.80779280300334,0.4934886693954468
+ https://stutterrockstar.files.wordpress.com/2014/08/male-episode-21-with-dylan.mp3, HeStutters,13,Pamela Mertz,dylan,2,True,f,m,True,21.578221929671564,0.5985580384731293
+ https://stutterrockstar.files.wordpress.com/2016/09/male-episode-22-w-chaz.mp3, HeStutters,14,Pamela Mertz,male-episode-22-w-chaz,2,True,f,m,True,45.02075522196819,0.4383136034011841
+ https://stutterrockstar.files.wordpress.com/2017/06/male-episode-23-with-ian.mp3, HeStutters,15,Pamela Mertz,ian,2,True,f,m,True,213.70219128357243,0.4769551753997803
+ https://stutterrockstar.files.wordpress.com/2018/09/male-episode-24-with-david-a.mp3, HeStutters,16,Pamela Mertz,david-a,2,True,f,m,True,216.06614428995755,0.4097146987915039
+ https://stutterrockstar.files.wordpress.com/2018/09/male-episode-25-with-rob.mp3, HeStutters,17,Pamela Mertz,rob,2,True,f,m,True,41.50441256714447,0.4777569770812988
+ https://stutterrockstar.files.wordpress.com/2018/11/male-episode-26-with-andy-fitz.mp3, HeStutters,18,Pamela Mertz,andy-fitz,2,True,f,m,True,273.77049451337365,0.4851321578025818
+ https://stutterrockstar.files.wordpress.com/2020/04/male-episode-27-with-chris-c.mp3, HeStutters,19,Pamela Mertz,chris-c,2,True,f,m,True,70.25283709165267,0.2426129579544067
+ https://stutterrockstar.files.wordpress.com/2011/10/male-episode-3-with-vivek.mp3, HeStutters,20,Pamela Mertz,vivek,2,True,f,m,True,197.7845924893122,0.4303432703018188
+ https://stutterrockstar.files.wordpress.com/2012/01/male-episode-4-with-joseph.mp3, HeStutters,21,Pamela Mertz,joseph,2,True,f,m,True,285.97730024975726,0.4188262224197387
+ https://stutterrockstar.files.wordpress.com/2012/02/male-episode-5-with-john-p.mp3, HeStutters,22,Pamela Mertz,john-p,2,True,f,m,True,179.01663514353731,0.4803597331047058
+ https://stutterrockstar.files.wordpress.com/2012/02/male-episode-6-with-zachary.mp3, HeStutters,23,Pamela Mertz,zachary,2,True,f,m,True,251.57951289268777,0.4668378829956054
+ https://anchor.fm/s/184c5dac/podcast/play/11473227/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-2-24%2F58674976-44100-2-ba93934fac3dc.m4a, HVSA,0,TJ Travor,TJ Travor,1,True,m,m,False,,1.0186955593526363
+ https://anchor.fm/s/184c5dac/podcast/play/11621505/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-27%2F59502673-44100-1-de0884dbdac71.m4a, HVSA,1,TJ Travor,Emma Markle (non stutterer),2,True,m,f,True,218.6012147697204,0.0088878273963928
+ https://anchor.fm/s/184c5dac/podcast/play/11637529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-17%2F65403420-44100-1-480bdf97d2168.m4a, HVSA,2,TJ Travor,Travis Robertson,2,True,m,m,True,176.6164561637355,0.0247614383697509
+ https://anchor.fm/s/184c5dac/podcast/play/12739266/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-21%2F66491576-44100-1-ea58f77ddd263.m4a, HVSA,3,TJ Travor,Taro Alexander,2,True,m,m,True,178.00136847636793,0.0096625089645385
+ http://istuttersowhat.com/podcast/ISSW007final.mp3, IStutterSoWhat,0,Evan Sherman,"David Shinefield, Tim Flinn",3,True,m,m,True,230.25971414042755,9.357929229736328e-05
+ http://istuttersowhat.com/podcast/ISSWPodcast001.mp3, IStutterSoWhat,1,Evan Sherman,Evan Sherman,1,True,m,m,False,,1.7915805578231812
+ http://istuttersowhat.com/podcast/ISSWPodcast003-MikeLapot.mp3, IStutterSoWhat,2,Evan Sherman,Mike Lapot,2,True,m,m,True,165.1787772424368,0.0029557943344116
+ http://istuttersowhat.com/podcast/ISSWPodcast004-the-walk.mp3, IStutterSoWhat,3,Evan Sherman,"Samuel Dunsinger, Daniele Rossi, StutteringIsCool",4,True,m,m,False,207.5307219277053,0.0749068856239318
+ http://istuttersowhat.com/podcast/ISSWPodcast005.mp3, IStutterSoWhat,4,Evan Sherman,Lisa LaSalle,2,True,m,f,True,164.45177700190723,0.0483285784721374
+ https://traffic.libsyn.com/secure/mystutteringlife/1_Tip_Final_Podcast.mp3?dest-id=1660175, MyStutteringLife,0,Pedro Peña,multiple,2,False,m,d,False,,1.080891914665699
+ https://traffic.libsyn.com/secure/mystutteringlife/A-Parent-s-Perspective-On-Stut-858691a75e012.m4a?dest-id=1660175, MyStutteringLife,1,Pedro Peña,Carolyn Doucette,2,True,m,f,True,35.662998230133795,0.0071831345558166
+ https://traffic.libsyn.com/secure/mystutteringlife/AdamWright_Final_Episode2.mp3?dest-id=1660175, MyStutteringLife,2,Pedro Peña,Adam Wright,2,True,m,m,True,38.75543723283035,0.001065194606781
+ https://traffic.libsyn.com/secure/mystutteringlife/Andrew_Simpson_Final_Podcast2.mp3?dest-id=1660175, MyStutteringLife,3,Pedro Peña,Andrew Simpson,2,True,m,m,True,59.47862980939226,0.0001052618026733
+ https://traffic.libsyn.com/secure/mystutteringlife/Callum_Schofield_Final_Podcast_Interview.mp3?dest-id=1660175, MyStutteringLife,4,Pedro Peña,Callum Schofield,2,True,m,m,True,33.19617835335755,0.0042111277580261
+ https://traffic.libsyn.com/secure/mystutteringlife/Cynthia_Zmrocek_final.mp3?dest-id=1660175, MyStutteringLife,5,Pedro Peña,Cynthia Zmroce,2,True,m,f,True,50.87963428186626,0.0069490671157836
+ https://traffic.libsyn.com/secure/mystutteringlife/Evan-Sherman--SLP-7f31356581b4e.m4a?dest-id=1660175, MyStutteringLife,6,Pedro Peña,Evan Sherman,2,True,m,m,True,39.14278259003102,0.0006525516510009
+ https://traffic.libsyn.com/secure/mystutteringlife/Final_Gal_Zussman_for_Libsyn.mp3?dest-id=1660175, MyStutteringLife,7,Pedro Peña,Gal Zussman,2,True,m,f,True,305.40885489388535,0.0001481771469116
+ https://traffic.libsyn.com/secure/mystutteringlife/Hakim_Erwin_Podcast_Interview.mp3?dest-id=1660175, MyStutteringLife,8,Pedro Peña,Hakim Erwin,2,True,m,m,True,62.06641003557322,0.0008442401885986
+ https://traffic.libsyn.com/secure/mystutteringlife/Hugo-Torres---Language-and-Com-e7a8e5ec468a7.m4a?dest-id=1660175, MyStutteringLife,9,Pedro Peña,Hugo Torres,2,True,m,m,True,10.500415130704832,0.2463032007217407
+ https://traffic.libsyn.com/secure/mystutteringlife/In-the-Beginning-6c5ad406487d29537363311966d56b0c.m4a?dest-id=1660175, MyStutteringLife,10,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.9975389002356678
+ https://traffic.libsyn.com/secure/mystutteringlife/It-Really-Does-Work---f507694368126.m4a?dest-id=1660175, MyStutteringLife,11,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.040973961353302
+ https://traffic.libsyn.com/secure/mystutteringlife/Jack_Dinsley_Podcast_Interview.mp3?dest-id=1660175, MyStutteringLife,12,Pedro Peña,Jack Dinsley,2,True,m,m,True,24.77381698340797,0.0294547080993652
+ https://traffic.libsyn.com/secure/mystutteringlife/Jaleesa-Bygrave-32463d904feed.m4a?dest-id=1660175, MyStutteringLife,13,Pedro Peña,Jaleesa Bygrave,2,True,m,f,True,50.52355782917485,0.0012804269790649
+ https://traffic.libsyn.com/secure/mystutteringlife/James-Hayden---Tedx-Speaker----c61828ed03aa.m4a?dest-id=1660175, MyStutteringLife,14,Pedro Peña,James Hayden,2,True,m,m,True,36.331713372330256,0.0053774118423461
+ https://traffic.libsyn.com/secure/mystutteringlife/Jared_Glickfield_Interview.mp3?dest-id=1660175, MyStutteringLife,15,Pedro Peña,Jared Glickfield,2,True,m,m,True,40.36222637089964,0.0007832646369934
+ https://traffic.libsyn.com/secure/mystutteringlife/Jason_Nunez_Final_Podcast.mp3?dest-id=1660175, MyStutteringLife,16,Pedro Peña,Jason Nunez,2,True,m,m,True,46.78544838305986,0.0007620453834533
+ https://traffic.libsyn.com/secure/mystutteringlife/LeRon-Barton---Author-and-Tedx-e1dd1b17397ec.m4a?dest-id=1660175, MyStutteringLife,17,Pedro Peña,LeRon Barton,2,True,m,m,True,43.65767606223166,0.0013898015022277
+ https://traffic.libsyn.com/secure/mystutteringlife/Matt_Herman_Podcast_Interview.mp3?dest-id=1660175, MyStutteringLife,18,Pedro Peña,Matt Herman,2,True,m,m,True,45.87497862700636,0.00247323513031
+ https://traffic.libsyn.com/secure/mystutteringlife/Michaela_Misske_Maia_Podcast_Interview.mp3?dest-id=1660175, MyStutteringLife,19,Pedro Peña,Michaela Misske Maia,2,True,m,f,True,35.44946515159264,0.0023189783096313
+ https://traffic.libsyn.com/secure/mystutteringlife/Nic-513a5a5fdb391.m4a?dest-id=1660175, MyStutteringLife,20,Pedro Peña,Nic,2,True,m,m,True,26.28896302610605,0.0041333436965942
+ https://traffic.libsyn.com/secure/mystutteringlife/Rama-Siva---Author-and-Believe-fa2c1426a8ecf.m4a?dest-id=1660175, MyStutteringLife,21,Pedro Peña,Rama Siva,2,True,m,m,True,49.681351211201424,0.0003805756568908
+ https://traffic.libsyn.com/secure/mystutteringlife/Roy-Johnson-ef1c45683c008.m4a?dest-id=1660175, MyStutteringLife,22,Pedro Peña,Roy Johnson,2,True,m,m,True,30.60087578372253,0.0025001764297485
+ https://traffic.libsyn.com/secure/mystutteringlife/Sherrika_Meyers_Podcast_Interview_Final2.mp3?dest-id=1660175, MyStutteringLife,23,Pedro Peña,Sherrika Meyers,2,True,m,f,True,250.9111757295787,0.0008865594863891
+ https://traffic.libsyn.com/secure/mystutteringlife/Strike-1--Strike-2--Strike-3-bdb9ea7b85a9f.m4a?dest-id=1660175, MyStutteringLife,24,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.2852559089660644
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering---Dating-a7bc436740b51.m4a?dest-id=1660175, MyStutteringLife,25,Pedro Peña,Roy Johnson,2,True,m,m,True,45.0401693353015,0.0021261572837829
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering---S-G-A-ca3bbb051ad38.m4a?dest-id=1660175, MyStutteringLife,26,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.6544520258903503
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--Comparing-Yoursel-d9878cc4b4dbeabcf17bca8ac944c01c.m4a?dest-id=1660175, MyStutteringLife,27,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.3276008665561676
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--Daily-Wins-dc679fc34876d2608693744930e9916d.m4a?dest-id=1660175, MyStutteringLife,28,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.8516849279403689
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--Exhaustion-b6c1b8398a19d8233f6ef78d967ca8a4.m4a?dest-id=1660175, MyStutteringLife,29,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.7829075455665588
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--Having-A-Good-Sup-5fcd2434048a1d89814ae47f27262256.m4a?dest-id=1660175, MyStutteringLife,30,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.3496990799903869
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--the-5-Second-Rule-814d7a4352a1914e80a84096d55d340c.m4a?dest-id=1660175, MyStutteringLife,31,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.3315489292144775
+ https://traffic.libsyn.com/secure/mystutteringlife/Stuttering--the-Magic-Pill-0175066e072a81b372a158ad1aedbc47.m4a?dest-id=1660175, MyStutteringLife,32,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.1815947890281677
+ https://traffic.libsyn.com/secure/mystutteringlife/Talking-To-The-Man-In-The-Mirr-b8ed833119e34.m4a?dest-id=1660175, MyStutteringLife,33,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.400683730840683
+ https://traffic.libsyn.com/secure/mystutteringlife/The-Card-You-Need-d4d6af5eb5ae.m4a?dest-id=1660175, MyStutteringLife,34,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.369559824466705
+ https://traffic.libsyn.com/secure/mystutteringlife/The-Journey-Of-A-Stutterer-Fro-52b1d1c58293f.m4a?dest-id=1660175, MyStutteringLife,35,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.1241418123245239
+ https://traffic.libsyn.com/secure/mystutteringlife/The-Wanderer-8654d99ae8dfd.m4a?dest-id=1660175, MyStutteringLife,36,Pedro Peña,Pedro Peña,1,True,m,m,False,,0.4691912531852722
+ https://traffic.libsyn.com/secure/mystutteringlife/Vampire-Crabs-af4efc29c6e9d.m4a?dest-id=1660175, MyStutteringLife,37,Pedro Peña,Pedro Peña,1,True,m,m,False,,1.1055889651179314
+ https://traffic.libsyn.com/secure/mystutteringlife/Vicky_G_Final_Episode.mp3?dest-id=1660175, MyStutteringLife,38,Pedro Peña,Vicky G,2,True,m,f,False,34.59868587126539,0.0039772391319274
+ https://traffic.libsyn.com/secure/mystutteringlife/Will_McClurg_Podcast_Final.mp3?dest-id=1660175, MyStutteringLife,39,Pedro Peña,Will McClurg,2,True,m,m,True,37.66106121052368,0.0019099712371826
+ http://feeds.soundcloud.com/stream/393268140-user-709642316-episode-1-pilot.mp3, StrongVoices,0,"Chad Scott, Jonathon Tary","Chad Scott, Jonathon Tary",2,True,m,m,True,54.54563222194964,0.1056058406829834
+ http://feeds.soundcloud.com/stream/407179179-user-709642316-episode-3-dont-let-anything-get-in-the-way-with-denis-wright.mp3, StrongVoices,1,Chad Scott,denis-wright,2,True,m,m,True,32.13165933913,0.0431513786315918
+ http://feeds.soundcloud.com/stream/413976822-user-709642316-episode-4-totally-transformed-with-monica-shanahan.mp3, StrongVoices,2,"Chad Scott, Jonathon Tary",monica-shanahan,3,True,m,f,True,41.582606768553696,0.02011239528656
+ http://feeds.soundcloud.com/stream/420675876-user-709642316-bonus-episode-1-stuttering-research-with-tatiana-izmaylova.mp3, StrongVoices,3,Jonathon Tary,tatiana-izmaylova,2,True,m,f,True,55.6306669994037,0.0809908509254455
+ http://feeds.soundcloud.com/stream/421724238-user-709642316-svpodcast-ep-5.mp3, StrongVoices,4,"Chad Scott, Jonathon Tary",Angela Shanahan,3,True,m,f,True,24.688894438306523,0.1169241070747375
+ http://feeds.soundcloud.com/stream/428515275-user-709642316-episode-6-the-martial-art-of-speaking-with-kate-salkeld.mp3, StrongVoices,5,Jonathon Tary,kate-salkeld,2,True,m,f,True,52.32260378286893,0.1036618947982788
+ http://feeds.soundcloud.com/stream/435397359-user-709642316-episode-7-with-tom-deblaere.mp3, StrongVoices,6,"Chad Scott, Jonathon Tary",tom-deblaere,3,True,m,m,False,287.80489035063226,0.0061562061309814
+ http://feeds.soundcloud.com/stream/442534920-user-709642316-episode-8-self-acceptance-and-eloquence-with-noel-kumar.mp3, StrongVoices,7,Chad Scott,noel-kumar,2,True,m,m,True,39.29468679330056,0.0689058303833007
+ http://feeds.soundcloud.com/stream/451194234-user-709642316-episode-9-then-versus-now-with-kristy-warden.mp3, StrongVoices,8,"Chad Scott, Jonathon Tary",kristy-warden,3,True,m,f,True,20.89026663400043,0.4188176393508911
+ http://feeds.soundcloud.com/stream/462134433-user-709642316-episode-11-it-all-adds-up-with-strong-technique-with-marcel-conway.mp3, StrongVoices,9,Jonathon Tary,marcel-conway,2,True,m,m,False,10.666883733074847,0.0533620119094848
+ http://feeds.soundcloud.com/stream/468076068-user-709642316-episode-12-success-with-many-voices-with-yasmeen-hassan.mp3, StrongVoices,10,"Chad Scott, Jonathon Tary",yasmeen-hassan,3,True,m,f,True,361.78180889873016,0.0367940068244934
+ http://feeds.soundcloud.com/stream/481363221-user-709642316-episode-13-stay-chilled-and-enjoy-speaking-with-phil-jeffrey.mp3, StrongVoices,11,"Chad Scott, Jonathon Tary",phil-jeffrey,3,True,m,m,False,23.39432907276005,0.1334394812583923
+ http://feeds.soundcloud.com/stream/494066280-user-709642316-episode-15-accessibility-and-the-future-with-ross-mullen.mp3, StrongVoices,12,"Chad Scott, Jonathon Tary",ross-mullen,3,True,m,m,False,28.70889611670529,0.0674008727073669
+ http://feeds.soundcloud.com/stream/500204031-user-709642316-episode-16-the-best-of-me-with-scott-monson.mp3, StrongVoices,13,"Chad Scott, Jonathon Tary",scott-monson,3,True,m,m,True,18.014251561888354,0.1463449597358703
+ http://feeds.soundcloud.com/stream/506871492-user-709642316-episode-17-the-hexagon-and-its-application-with-scott-monson.mp3, StrongVoices,14,"Chad Scott, Jonathon Tary",scott-monson,3,True,m,m,False,24.150697100568824,0.0236331224441528
+ http://feeds.soundcloud.com/stream/514061178-user-709642316-episode-18-a-journey-begun-with-anthony-steed.mp3, StrongVoices,15,"Chad Scott, Jonathon Tary",anthony-steed,3,True,m,m,True,27.203186195912927,0.0244648456573486
+ http://feeds.soundcloud.com/stream/520973022-user-709642316-episode-19-the-abc-of-everything-with-scott-monson.mp3, StrongVoices,16,"Chad Scott, Jonathon Tary",scott-monson,3,True,m,m,False,25.322194969660067,0.102395474910736
+ http://feeds.soundcloud.com/stream/528397401-user-709642316-episode-20-goals-achieved-more-to-explore-with-freddie-westhuizen.mp3, StrongVoices,17,"Chad Scott, Jonathon Tary",freddie-westhuizen,3,True,m,m,False,23.382736451965144,0.0306710004806518
+ http://feeds.soundcloud.com/stream/547557738-user-709642316-episode-24-2018-in-review-with-your-hosts.mp3, StrongVoices,18,"Chad Scott, Jonathon Tary","Chad Scott, Jonathon Tary",2,True,m,m,True,46.03799098341003,0.0564006567001342
+ http://feeds.soundcloud.com/stream/569330349-user-709642316-episode-25-part-1-with-mike-wilson.mp3, StrongVoices,19,"Chad Scott, Jonathon Tary",mike-wilson,3,True,m,m,True,27.95673162295625,0.0684844851493835
+ http://feeds.soundcloud.com/stream/576628695-user-709642316-episode-26-part-2-with-mike-wilson.mp3, StrongVoices,20,"Chad Scott, Jonathon Tary",mike-wilson,3,True,m,m,False,40.04685821095012,0.0147868394851684
+ http://feeds.soundcloud.com/stream/591248463-user-709642316-episode-28-part-1-with-ankur-aryaa-and-eugene-barannikov.mp3, StrongVoices,21,"Chad Scott, Jonathon Tary","Ankur Aryaa, Eugene Barannikov",4,True,m,d,True,260.3642137211017,0.0229807496070861
+ http://feeds.soundcloud.com/stream/598593423-user-709642316-episode-29-part-2-with-ankur-aryaa-and-eugene-barannikov.mp3, StrongVoices,22,"Chad Scott, Jonathon Tary","Ankur Aryaa, Eugene Barannikov",4,True,m,d,False,41.6534036920452,0.0163690447807312
+ http://feeds.soundcloud.com/stream/606220788-user-709642316-episode-30-with-todd-wheldon.mp3, StrongVoices,23,"Chad Scott, Jonathon Tary",todd-wheldon,3,True,m,m,False,335.61306922671463,0.031969130039215
+ http://feeds.soundcloud.com/stream/612122499-user-709642316-episode-31-moving-forward-with-katy-johnson.mp3, StrongVoices,24,"Chad Scott, Jonathon Tary",katy-johnson,3,True,m,f,True,32.83698224724463,0.0386503934860229
+ http://feeds.soundcloud.com/stream/619339989-user-709642316-episode-32-with-martin-bates.mp3, StrongVoices,25,"Chad Scott, Jonathon Tary",martin-bates,3,True,m,m,True,41.80234438402682,0.0404002666473388
+ http://feeds.soundcloud.com/stream/625233042-user-709642316-episode-33-with-jhoney-ekladious.mp3, StrongVoices,26,"Chad Scott, Jonathon Tary",jhoney-ekladious,3,True,m,m,True,28.59058799109288,0.0384429693222045
+ http://feeds.soundcloud.com/stream/632551599-user-709642316-episode-34-with-peter-wise.mp3, StrongVoices,27,"Chad Scott, Jonathon Tary",peter-wise,3,True,m,m,True,30.290236451371307,0.0887752175331115
+ http://feeds.soundcloud.com/stream/668349341-user-709642316-episode-35-ride-the-wave-with-riley-cadman.mp3, StrongVoices,28,"Chad Scott, Jonathon Tary",riley-cadman,3,True,m,f,True,20.66657706635716,0.0392185449600219
+ http://feeds.soundcloud.com/stream/710943172-user-709642316-svpodcast-ep37.mp3, StrongVoices,29,"Chad Scott, Jonathon Tary","Alex Cowan, Kate Salkeld",4,True,m,d,True,27.752278999971963,0.189745545387268
+ http://feeds.soundcloud.com/stream/714010465-user-709642316-episode-38-life-love-and-relationships-part-2-with-alex-cowan-and-kate.mp3, StrongVoices,30,"Chad Scott, Jonathon Tary","Alex Cowan, Kate Salkeld",4,True,m,d,True,42.44532558614804,0.0273970961570739
+ http://feeds.soundcloud.com/stream/722540014-user-709642316-episode-40-its-never-to-late-to-be-a-great-speaker-with-virginia-hortis.mp3, StrongVoices,31,"Chad Scott, Jonathon Tary",virginia-hortis,3,True,m,f,True,19.983651560727395,0.2471335530281067
+ http://feeds.soundcloud.com/stream/728507386-user-709642316-episode-41-destroy-the-fear-with-kenny-macheka.mp3, StrongVoices,32,"Chad Scott, Jonathon Tary",kenny-macheka,3,True,m,m,True,306.16125066625403,0.0223526954650878
+ http://feeds.soundcloud.com/stream/730703080-user-709642316-episode-42-there-is-more-to-stuttering-than-stuttering-with-geoff-johnston.mp3, StrongVoices,33,"Chad Scott, Jonathon Tary",geoff-johnston,3,True,m,m,True,56.77199910730224,0.0504648089408874
+ http://feeds.soundcloud.com/stream/746278345-user-709642316-episode-45-goodby-from-your-hosts.mp3, StrongVoices,34,"Chad Scott, Jonathon Tary","Chad Scott, Jonathon Tary",2,True,m,m,True,53.56802091257063,0.0882501006126403
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/572StutterTalk.mp3, StutterTalk,0,Reuben Schuff,Nora O’Connor Loryn McGill,2,True,m,f,True,17.57659450188391,0.9035515338182448
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/573StutterTalk.mp3, StutterTalk,1,Peter Reitzes,Leah Graham,2,True,m,f,True,12.233926309375445,0.819246768951416
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/575StutterTalk.mp3, StutterTalk,2,Peter Reitzes,Christopher Schuyler,2,True,m,m,True,34.00168929646653,0.7660163342952728
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/577StutterTalk.mp3, StutterTalk,3,Peter Reitzes,Darren Johnson,2,True,m,m,True,20.36878720432984,0.6338467299938202
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/578StutterTalk.mp3, StutterTalk,4,Peter Reitzes,Dr. Gerald Maguire,2,True,m,m,True,31.573636685719023,0.7547751665115356
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/579StutterTalk.mp3, StutterTalk,5,Peter Reitzes,Katie Gore,2,True,m,f,True,49.58907678867302,0.7388848960399628
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/581StutterTalk.mp3, StutterTalk,6,Peter Reitzes,"Roisin McManus, Caryn Herring",3,True,m,f,True,221.22874525607293,0.6449883580207825
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/583StutterTalk.mp3, StutterTalk,7,Peter Reitzes,"Robert Quesal, Joe Klein",3,True,m,m,False,34.85701346072983,0.6249395906925201
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/584StutterTalk.mp3, StutterTalk,8,Reuben Schuff,Anthony DiLollo,2,True,m,m,True,290.3416267988152,0.7174960076808929
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/585StutterTalk.mp3, StutterTalk,9,Christopher Constantino,Jia Bin,2,True,m,f,True,39.64346051094678,0.783331423997879
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/587StutterTalk.mp3, StutterTalk,10,"Roisin McManus, Caryn Herring, Joel Korte","Roisin McManus, Caryn Herring, Joel Korte",3,True,d,d,True,30.13708921384424,0.6866191625595093
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/588StutterTalk.mp3, StutterTalk,11,Christopher Constantino,Mary McLoughlin,2,True,m,f,True,55.00964028266148,0.7476028203964233
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/589StutterTalk.mp3, StutterTalk,12,Reuben Schuff,Eddie Samp,2,True,m,m,True,27.66364151884296,0.7364607155323029
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/590StutterTalk.mp3, StutterTalk,13,Caryn Herring,"Josette Tugander, Juliette Tugander",3,True,f,f,False,16.71204331678229,0.6428175866603851
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/592StutterTalk.mp3, StutterTalk,14,Christopher Constantino,Brad Mills,2,True,m,m,True,27.65606176333608,0.7510664463043213
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/593StutterTalk.mp3, StutterTalk,15,Reuben Schuff,"Caryn Herring, Christopher Constantino, Mark Baer, Dhruv Gupta",5,True,m,d,True,32.19673334047102,0.6365113854408264
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/594StutterTalk.mp3, StutterTalk,16,Reuben Schuff,Ennio Vescio,2,True,m,m,True,11.4732884934694,0.2708901762962341
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/595StutterTalk.mp3, StutterTalk,17,Peter Reitzes,"Bill Collins, Casey Kennedy",3,True,m,d,True,19.407268361914017,0.5821150541305542
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/596StutterTalk.mp3, StutterTalk,18,Peter Reitzes,"Jane Fraser, Dr. Joe Klein",3,True,m,d,True,55.82103946445272,0.2935826182365417
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/597StutterTalk.mp3, StutterTalk,19,Peter Reitzes,Neil Rodrigues,2,True,m,m,True,34.6053286721263,0.7147959470748901
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/598StutterTalk.mp3, StutterTalk,20,Peter Reitzes,Dr. Hector R. Perez,2,True,m,m,True,31.251511542165204,0.7089724242687225
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/601StutterTalk.mp3, StutterTalk,21,Peter Reitzes,Craig Coleman,2,True,m,m,True,59.82090703270596,0.7501855939626694
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/602StutterTalk.mp3, StutterTalk,22,Peter Reitzes,"Dori Holte, Jesse VanderWeide",3,True,m,d,False,44.1669310542045,0.1582933664321899
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/603StutterTalk.mp3, StutterTalk,23,Peter Reitzes,Robert Dellinger,2,True,m,m,False,20.10361938090144,0.6358980238437653
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/604StutterTalk.mp3, StutterTalk,24,Peter Reitzes,Robert van de Vorst,2,True,m,m,False,9.932337331989167,0.4976310133934021
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/605StutterTalk.mp3, StutterTalk,25,Peter Reitzes,Robert Quesal,2,True,m,m,True,233.58805863731035,0.8097749054431915
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/606StutterTalk.mp3, StutterTalk,26,Peter Reitzes,"Robert Quesal, Robert Dellinger",3,True,m,m,True,268.8465961444381,0.2133271098136901
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/608StutterTalk.mp3, StutterTalk,27,Peter Reitzes,Paige White,2,True,m,f,True,19.742081675129707,0.5624065101146698
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/609StutterTalk.mp3, StutterTalk,28,Peter Reitzes,Róisín McManus,2,True,m,f,False,13.96068941022481,0.7311145663261414
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/610StutterTalk.mp3, StutterTalk,29,Peter Reitzes,Rita Thurman,2,True,m,f,True,42.21051809085173,0.7316610813140869
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/611StutterTalk.mp3, StutterTalk,30,Peter Reitzes,Rachel Hoge,2,True,m,f,True,11.507717039769028,0.5161237120628357
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/612StutterTalk.mp3, StutterTalk,31,Peter Reitzes,"Jane Fraser, Emily Anderson",3,True,m,f,True,57.98848637697821,0.5308471918106079
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/615StutterTalk.mp3, StutterTalk,32,Peter Reitzes,Phil Schneider,2,True,m,m,True,44.43465759337678,0.7677244246006012
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/617StutterTalk.mp3, StutterTalk,33,Peter Reitzes,Christopher Constantino,2,True,m,m,True,118.57933820525484,0.8529953211545944
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/618StutterTalk.mp3, StutterTalk,34,Roisin McManus,"Spring Kwok, Geoffry Gertz",3,True,m,d,True,22.32167019964832,0.4614420533180237
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/619StutterTalk.mp3, StutterTalk,35,Peter Reitzes,Melissa Fuller,2,True,m,f,True,13.140151602676593,0.5070574283599854
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/620StutterTalk.mp3, StutterTalk,36,Peter Reitzes,Richard Arenas,2,True,m,m,True,10.509566313622654,0.8217143565416336
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/622StutterTalk.mp3, StutterTalk,37,Christopher Constantino,"Jia Bin, Elizabeth Wislar and Reuben Schuff",3,True,m,d,False,177.6263559523116,0.4178162217140198
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/624StutterTalk.mp3, StutterTalk,38,Reuben Schuff,Chaya Goldstein,2,True,m,f,True,35.22261127872544,0.7522561252117157
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/626StutterTalk.mp3, StutterTalk,39,Peter Reitzes,Dr. Frederick Murray,2,True,m,m,True,22.04189507704612,0.8270176649093628
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/627StutterTalk.mp3, StutterTalk,40,Peter Reitzes,Brian Hamrick,2,True,m,m,True,16.12224036027018,0.9638793841004372
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/629StutterTalk.mp3, StutterTalk,41,Peter Reitzes,Craig Coleman,2,True,m,m,True,56.963441816942414,0.7419540584087372
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/630StutterTalk.mp3, StutterTalk,42,Peter Reitzes,Rodney Gabel,2,True,m,m,True,45.81527160031198,0.7643129378557205
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/632StutterTalk.mp3, StutterTalk,43,Peter Reitzes,Christopher Constantino,2,True,m,m,True,167.20295455093628,0.8658505231142044
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/633StutterTalk.mp3, StutterTalk,44,Peter Reitzes,Jack K. Henderson,2,True,m,m,True,31.13254180767796,0.8045959323644638
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/634StutterTalk.mp3, StutterTalk,45,Peter Reitzes,Robert Quesal,2,True,m,m,True,29.386700139618195,0.7692765295505524
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/635StutterTalk.mp3, StutterTalk,46,Peter Reitzes,Frank T. Flannery,2,True,m,m,True,37.09841870225928,0.7256971895694733
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/639StutterTalk.mp3, StutterTalk,47,Peter Reitzes,Jane Harley,2,True,m,f,True,42.40573792192664,0.7879549711942673
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/640StutterTalk.mp3, StutterTalk,48,Peter Reitzes,Dr. Jennifer Chesters,2,True,m,f,True,33.51015207511947,0.7813817411661148
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/641StutterTalk.mp3, StutterTalk,49,"Róisín McManus, Caryn Herring, Joel Korte","Róisín McManus, Caryn Herring, Joel Korte",3,True,d,d,True,26.13910878909481,0.6683748364448547
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/642StutterTalk.mp3, StutterTalk,50,Peter Reitzes,Robert Quesal,2,True,m,m,True,45.77199647479814,0.6922181248664856
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/644StutterTalk.mp3, StutterTalk,51,Peter Reitzes,Dr. Charley F. Adams,2,True,m,m,True,34.27342385131961,0.6795192360877991
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/646StutterTalk.mp3, StutterTalk,52,Peter Reitzes,Katie Gore and Courtney Luckman,2,True,m,f,True,18.93692599802128,0.9947855840437114
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/647StutterTalk.mp3, StutterTalk,53,Peter Reitzes,J. Scott Yaruss and Seth Tichenor,2,True,m,m,True,26.25103305700411,0.9491882510483264
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/648StutterTalk.mp3, StutterTalk,54,Chaya Goldstein,Emily Anderson,2,True,f,f,True,34.8790236049419,0.7697461247444153
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/650StutterTalk.mp3, StutterTalk,55,"Kerianne Druker, Dr. Tom Weidig","Dr. Marie-Christine Franken, Dr. Janet Beilby",4,True,d,f,True,58.92340379046728,0.3707886934280395
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/651StutterTalk.mp3, StutterTalk,56,"Kerianne Druker, Dr. Tom Weidig",Dr. Shelly Jo Kraft and Dr. Keiichi Yasu,3,True,d,d,True,24.860993180846293,0.1663350462913513
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/652StutterTalk.mp3, StutterTalk,57,Caryn Herring,Kodai Noguchi,2,True,f,m,True,10.902186514180377,0.2261912226676941
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/653StutterTalk.mp3, StutterTalk,58,Dr. Tom Weidig,John Steggles,2,True,m,m,True,42.023584872287806,0.7606780380010605
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/654StutterTalk.mp3, StutterTalk,59,Kerianne Druker,"Katherine Winters, Seth Tichenor, Heather Salvo",4,True,f,d,False,70.18794211204934,0.2411643266677856
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/655StutterTalk.mp3, StutterTalk,60,Chaya Goldstein,John Gomez,2,True,f,m,False,36.70897290284345,0.7439553141593933
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/657StutterTalk.mp3, StutterTalk,61,Peter Reitzes,Dr. Phil Schneider,2,True,m,m,False,52.24957284954731,0.7181199789047241
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/658StutterTalk.mp3, StutterTalk,62,Reuben Schuff,"Taro Alexander, Loryn McGill",3,True,m,m,False,21.68622647016844,0.1072037816047668
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/660StutterTalk.mp3, StutterTalk,63,Chaya Goldstein,Mollie Davis,2,True,f,f,True,156.57655178269954,0.7628843039274216
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/661StutterTalk.mp3, StutterTalk,64,Reuben Schuff,"Christopher Constantino, Robert Dellinger",3,True,m,m,True,152.24365630004817,0.6444211304187775
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/663StutterTalk.mp3, StutterTalk,65,Chaya Goldstein,Hanan Hurwitz,2,True,f,m,True,29.02338121583517,0.7935444265604019
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/665StutterTalk.mp3, StutterTalk,66,Chaya Goldstein,"Reuben Schuff, Samantha Gennuso, Kristel Kubart, Stavros Ladeas",5,True,f,d,True,30.1941847592667,0.1283913254737854
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/666StutterTalk.mp3, StutterTalk,67,Chaya Goldstein,Dr. Rick Arenas,2,True,f,m,True,20.8444976014177,0.9531133584678172
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/669StutterTalk.mp3, StutterTalk,68,Chaya Goldstein,Rich Stephens,2,True,f,m,True,184.6178545439139,0.8651529550552368
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/670StutterTalk.mp3, StutterTalk,69,Chaya Goldstein,Barry Yeoman,2,True,f,m,True,12.416650871795223,0.6190930604934692
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/672StutterTalk.mp3, StutterTalk,70,Chaya Goldstein,Marc Winski,2,True,f,m,False,18.19925159810209,0.9205328151583672
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/674StutterTalk.mp3, StutterTalk,71,Peter Reitzes,Chaya Goldstein,2,True,m,f,True,45.95334240383447,0.6529480218887329
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/677StutterTalk.mp3, StutterTalk,72,Reuben Schuff,Samantha Gennuso,2,True,m,f,True,256.8006269871375,0.703012615442276
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/678StutterTalk.mp3, StutterTalk,73,Chaya Goldstein,Roisin McManus,2,True,f,f,True,28.52147972144788,0.7386952638626099
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/679StutterTalk.mp3, StutterTalk,74,Peter Reitzes,Dr. Gerald Maguire,2,True,m,m,True,19.889982648933625,0.8588569909334183
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/680StutterTalk.mp3, StutterTalk,75,Chritopher Constantino,Michael Turner,2,True,m,m,False,32.82618292786024,0.8691966384649277
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/681StutterTalk.mp3, StutterTalk,76,"Caryn Herring, Joel Korte, Roisin McManus","Caryn Herring, Joel Korte, Roisin McManus",3,True,d,d,True,24.90473041281981,0.7184512317180634
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/682StutterTalk.mp3, StutterTalk,77,Reuben Schuff,Tiffani Kittilstved,2,True,m,f,True,43.88340499701517,0.8117516934871674
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/684StutterTalk.mp3, StutterTalk,78,Peter Reitzes,Dennis Drayna,2,True,m,m,True,13.577359991921083,0.5682942271232605
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/686StutterTalk.mp3, StutterTalk,79,Christopher Constantino,Dominique Kennedy,2,True,m,f,True,49.70773683771088,0.7616880834102631
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/StutterTalkCampSAY.mp3, StutterTalk,80,Peter Reitzes,multiple,2,False,m,d,False,,0.8436486721038818
+ http://media.blubrry.com/stuttertalk/stuttertalk.com/podcast/StutterTalkPositionStatement.mp3, StutterTalk,81,Peter Reitzes,Peter Reitzes,1,True,m,m,False,,1.8024486303329468
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/6ctZYoFLT1o/Stuttering-is-Cool-1st-episode.mp3, StutteringIsCool,0,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.484076976776123
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/cgNC5zjE6J4/cool100.mp3, StutteringIsCool,1,Daniele Rossi,"Hiten Vyas,  Sarah Bryant, Tom Weidig, Rebecca, Robert R. Best,      David Freidman, Carolina Ayala, Carlo Silipo, Rob, Jaan Pill,  Greg Snyder",12,True,m,d,False,41.38285513143658,0.1814243197441101
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/LNLU2XfWt8E/cool101.mp3, StutteringIsCool,2,Daniele Rossi,"Mark Blevis, Andrea Ross, Bob Goyetche",4,True,m,d,False,42.795350257629714,0.4719846248626709
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Qp6UWNvsgIY/cool103.mp3, StutteringIsCool,3,Daniele Rossi,Norbert Lieckfeldt,2,True,m,m,True,43.617942426752535,0.0027722120285034
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/tTYb1Z7G9Ss/cool104.mp3, StutteringIsCool,4,Daniele Rossi,multiple,2,False,m,d,False,,1.81510728597641
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Zxg0R7Iv2OA/cool106.mp3, StutteringIsCool,5,Daniele Rossi,,2,True,m,m,False,26.662440694320978,0.0013637542724609
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/XisH14bTWBg/cool107.mp3, StutteringIsCool,6,Daniele Rossi,,2,True,m,m,False,20.28873610630392,0.0265297293663024
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/IAbVF4hfWMM/cool108.mp3, StutteringIsCool,7,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.499710738658905
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/JMPBks6CPjQ/cool111.mp3, StutteringIsCool,8,Daniele Rossi,Jody Fuller,2,True,m,f,True,16.908517110051204,0.0204454064369201
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/kzY2TcEkN24/cool114.mp3, StutteringIsCool,9,Daniele Rossi,Obim Okongwu,2,True,m,m,True,9.186684629687084,0.3864583969116211
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/rjR8nbLT8vo/cool115.mp3, StutteringIsCool,10,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.5421995520591736
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/gXBXKtRsZAA/cool119.mp3, StutteringIsCool,11,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.1066342741250992
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/3CEkMGmAWxo/cool120.mp3, StutteringIsCool,12,Daniele Rossi,David Alpuche,2,True,m,m,True,17.20770443462759,0.0125705599784851
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ikhqNWW0ZxY/cool124.mp3, StutteringIsCool,13,Daniele Rossi,Satyendra Sachin Srivastava,2,True,m,m,True,22.4775003388182,0.0082244873046875
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ClmJvu5YB6A/cool126.mp3, StutteringIsCool,14,Daniele Rossi,multiple,2,False,m,d,False,,1.355781614780426
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/63UHi10te5c/cool127.mp3, StutteringIsCool,15,Daniele Rossi,Barry Yeoman,2,True,m,m,True,23.666539210577053,0.011027455329895
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/jX1GvdliLTw/cool131.mp3, StutteringIsCool,16,Daniele Rossi,"Sam Dunsiger, Grant Meredith",3,True,m,m,False,44.997911670229165,0.0281578302383422
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Tv9772x6y-U/cool133.mp3, StutteringIsCool,17,Daniele Rossi,multiple,2,False,m,d,False,,0.6921118497848511
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/zgwmEjBpX2Q/cool136.mp3, StutteringIsCool,18,Daniele Rossi,multiple,2,False,m,d,False,,1.759810209274292
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/9PfLcPdEWdw/cool137.mp3, StutteringIsCool,19,Daniele Rossi,Sam Dunsiger,2,True,m,m,True,18.833989084986563,0.0138300657272338
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/-uWXGbrUh6w/cool138.mp3, StutteringIsCool,20,Daniele Rossi,multiple,2,False,m,d,False,,1.874453067779541
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Bz2DNrZUIx8/cool140.mp3, StutteringIsCool,21,Daniele Rossi,"Sam Dunsiger, Kenny Buttler",3,True,m,m,True,28.80932593734542,0.2288435101509094
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/A4yBT9_XvAQ/cool141.mp3, StutteringIsCool,22,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.3750793933868408
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/007wXSUoKpw/cool142.mp3, StutteringIsCool,23,Daniele Rossi,"Lil JaXe, Oliver Pigott, Dave Espeut, Bonnie Anderson, Michael Prue, Janet Davis, Dr. Robert Kroll",8,True,m,d,False,25.547640801023125,0.2439396381378173
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/7n0GCOnP-Ho/cool143.mp3, StutteringIsCool,24,Daniele Rossi,multiple,2,False,m,d,False,,1.956032633781433
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/aMI1Z1jcMCI/cool144.mp3, StutteringIsCool,25,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.6995739340782166
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/aosVoQKrfE0/cool147.mp3, StutteringIsCool,26,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,0.9767828956246376
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/laBdXpp_0Lw/cool148.mp3, StutteringIsCool,27,Daniele Rossi,multiple,2,False,m,d,False,,0.3710798025131225
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ywXNNRKkf9Y/cool151.mp3, StutteringIsCool,28,Daniele Rossi,Lott Hughes,2,True,m,m,False,24.40176259593367,0.0008465647697448
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/8VkJj43Kktc/cool158.mp3, StutteringIsCool,29,Daniele Rossi,"Mark Blevis, Tod Maffin",3,True,m,m,False,39.06521631254851,0.0033218264579772
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/JcWnKjOtuyY/cool159.mp3, StutteringIsCool,30,Daniele Rossi,"JPL Astronomer, MIT Optical Engineer",3,True,m,d,True,42.41786212752676,0.2741869688034057
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/gVN2kakZXTs/cool160.mp3, StutteringIsCool,31,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.7664073705673218
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/6cQtXSy6BEI/cool163.mp3, StutteringIsCool,32,Daniele Rossi,Sam Dunsiger,2,True,m,m,True,18.936474210024727,0.0424364209175109
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/byBWDpkJlWY/cool166.mp3, StutteringIsCool,33,Daniele Rossi,multiple 16,17,True,m,d,False,24.15854502639913,0.0959411263465881
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/q0AgOhvk7cs/cool167.mp3, StutteringIsCool,34,Daniele Rossi,Grant Meredith,2,True,m,d,False,90.39034698829704,0.0115453600883483
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/B4IYZVBOJdg/cool169.mp3, StutteringIsCool,35,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.4206934869289398
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/TjArmv9HVak/cool170.mp3, StutteringIsCool,36,Daniele Rossi,"Helen Donnelly, multiple",3,True,m,f,False,18.74254770704587,0.0076534748077392
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/vmasUslk59U/cool173.mp3, StutteringIsCool,37,Daniele Rossi,multiple,2,False,m,m,False,,1.5222547054290771
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/qwuNYfcFc7I/cool174.mp3, StutteringIsCool,38,Daniele Rossi,"Evan Livermore, multiple 9",11,True,m,m,False,60.24007945553988,0.2416511178016662
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/1mZVOjJVSHk/cool176.mp3, StutteringIsCool,39,Daniele Rossi,Geneviève Lamoureux,2,True,m,f,True,35.64166011697458,0.0081700086593627
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/VtkWsaG5lpY/cool177.mp3, StutteringIsCool,40,Daniele Rossi,Marc Winski,2,True,m,m,True,30.43650747137858,0.0121777653694152
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ulah-lx71kA/cool178.mp3, StutteringIsCool,41,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.5409337282180786
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/gmsdy5yK-pA/cool179.mp3, StutteringIsCool,42,Daniele Rossi,Adam Norman,2,True,m,m,True,21.41669573636372,0.0423938035964965
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/MIO0zpN7zSQ/cool183.mp3, StutteringIsCool,43,Daniele Rossi,David Resnick,2,True,m,m,True,12.453916532813166,0.238025963306427
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/2VUkB4F2d5A/cool190.mp3, StutteringIsCool,44,Daniele Rossi,Hanan Hurwitz,2,True,m,m,True,19.990523364526283,0.0015137791633605
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/dJ9I_oPRfP8/cool191.mp3, StutteringIsCool,45,Daniele Rossi,Annie Bradberry,2,True,m,f,True,29.30721974086183,0.0210228562355041
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/boIxAGW0qRw/cool193.mp3, StutteringIsCool,46,Daniele Rossi,Pamela Mertz,2,True,m,f,True,254.708923790012,0.0010360479354858
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/x6_DC6Ffdo0/cool194.mp3, StutteringIsCool,47,Daniele Rossi,Elaine Robin,2,True,m,f,True,41.10733913019885,0.0001170635223388
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/_fkLeTVt3AM/cool195.mp3, StutteringIsCool,48,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,0.5626610815525055
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/aqoBMF32e0c/cool196.mp3, StutteringIsCool,49,Daniele Rossi,multiple,2,False,m,d,False,,1.677278757095337
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/3P0LG_ORg-I/cool197.mp3, StutteringIsCool,50,Daniele Rossi,Anita Blom,2,True,m,f,True,25.676900302132232,0.0015929341316223
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/t9gg0w5W_7I/cool203.mp3, StutteringIsCool,51,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,1.6476182341575625
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/rqbohFps7GA/cool204.mp3, StutteringIsCool,52,Daniele Rossi,Dr. Greg Snyder,2,True,m,m,True,9.137014765631829,0.2647122740745544
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/GJ9ql1cm4u0/cool206.mp3, StutteringIsCool,53,Daniele Rossi,Kim Block,2,True,m,f,True,22.328187516799225,0.0458145141601562
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/4ybos2J76tE/cool207.mp3, StutteringIsCool,54,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,0.441476047039032
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/V4ca5zvoHrY/cool209.mp3, StutteringIsCool,55,Daniele Rossi,"Gareth Walkom, Grant Meredith",3,True,m,m,True,27.690668365268472,0.0035898089408874
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/atEQZbqkkEw/cool210.mp3, StutteringIsCool,56,Daniele Rossi,Andrew Castaneda,2,True,m,m,True,31.159820993800377,0.0001611709594726
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/pA0nJsjSsAw/cool211.mp3, StutteringIsCool,57,Daniele Rossi,multiple,2,False,m,d,False,,0.2510173320770263
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/748-rTwjGGk/cool213.mp3, StutteringIsCool,58,Daniele Rossi,multiple,2,False,m,d,False,,1.5483532547950745
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/GcxpkNUrUBg/cool214.mp3, StutteringIsCool,59,Daniele Rossi,"Vivian Sisskin, Robert van de Vorst",3,True,m,d,False,20.69607767948814,0.2004724144935608
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/iBhx4fsdxCY/cool215.mp3, StutteringIsCool,60,Daniele Rossi,multiple,2,False,m,d,False,,1.7510202527046204
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/VJfW0AyhTQo/cool216.mp3, StutteringIsCool,61,Daniele Rossi,multiple,2,False,m,d,False,,0.9692271389067172
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/9rXCRdRB6pY/cool218.mp3, StutteringIsCool,62,Daniele Rossi,James Hayden,2,True,m,m,True,30.6853913858186,0.0108532309532165
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/6M1i2lOeo-o/cool219.mp3, StutteringIsCool,63,Daniele Rossi,multiple 3,4,True,m,d,True,30.65535978451391,0.3129422068595886
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/1a2DKTQR91M/cool221.mp3, StutteringIsCool,64,Daniele Rossi,"Carol Mary Nolan, Dr. Charley Adams",3,True,m,d,False,29.757822046325785,0.0700111985206604
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Dr_UOEleklQ/cool222.mp3, StutteringIsCool,65,Daniele Rossi,Annie Bradberry,2,True,m,f,True,14.891383620700084,0.0028011798858642
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/iQgqfohlopE/cool224.mp3, StutteringIsCool,66,Daniele Rossi,"Annie Bradberry, Mitch Trichon",3,True,m,d,True,25.34141890938589,0.0141298770904541
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ra3sLT1FX5g/cool225.mp3, StutteringIsCool,67,Daniele Rossi,"Gareth Cowlin, Joe Stone",3,True,m,m,False,55.973679896464034,0.0799192190170288
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/Ujixf9AQrXA/cool227.mp3, StutteringIsCool,68,Daniele Rossi,John Gomez,2,True,m,m,True,38.39534343637773,0.0011769533157348
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/2IPRbWwaer8/cool230.mp3, StutteringIsCool,69,Daniele Rossi,"Lynne Mackie, Tom Scharstein, Jeff Fett,",5,True,m,d,False,66.84130407086666,0.1956018805503845
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/c2cVE5sHZPo/cool234.mp3, StutteringIsCool,70,Daniele Rossi,Anita Blom,2,True,m,f,True,8.953294479521944,0.2477400302886963
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/0aaFcX8c9p4/cool235.mp3, StutteringIsCool,71,Daniele Rossi,Nina G,2,True,m,f,True,21.99132509924056,0.0635352730751037
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/y-StkZTcaj8/cool237.mp3, StutteringIsCool,72,Daniele Rossi,Jane Powell,2,True,m,f,False,16.470877321188894,0.0101439356803894
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/d1BYcfh5JDU/cool238.mp3, StutteringIsCool,73,Daniele Rossi,"Claire Norman, Caroline Bredeson, Audrey Bigras, Genviève Lamoureux, Daniel Aubé",6,True,m,f,True,20.08870683913355,0.1214630007743835
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/3gKtIMjoYMQ/cool239.mp3, StutteringIsCool,74,Daniele Rossi,Daniele Rossi,1,True,m,m,False,,0.3360019326210022
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/lm91PvoJibw/cool240.mp3, StutteringIsCool,75,Daniele Rossi,"Willemjin Bolks, Jurjen de Jong, Vinnie De Craim, Marc van Krakinger, Satu Nygren, Natalie Park",7,True,m,d,False,54.92153369441452,0.4385175108909607
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/WSxSYwkLxlE/cool242.mp3, StutteringIsCool,76,Daniele Rossi,"Patrick Campbell, Christopher Constantino, Samantha Simpson",4,True,m,d,True,31.653003048575965,0.1767672300338745
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/O9I3MmDtoXU/cool244.mp3, StutteringIsCool,77,Daniele Rossi,"John Gomez, Geneviève Lamoureux, Myriam Fauteux, David Alpuche, Kevin Chambers",6,True,m,d,False,29.58876507396086,0.3042744398117065
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/vC8mUuQn2Kk/cool54.mp3, StutteringIsCool,78,Daniele Rossi,,2,True,m,m,True,26.53909486679517,0.0035673379898071
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/aTTaOZtXQPM/cool66.mp3, StutteringIsCool,79,Daniele Rossi,"@bibiubrasil, @ridwan326, @stirpicus, @webby49, @dima7b",6,True,m,d,False,79.81438733016135,0.2550647854804992
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/iYmOU25-j58/cool81.mp3, StutteringIsCool,80,Daniele Rossi,,2,True,m,m,False,158.65220623987165,0.0127395391464233
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/FTcU1d4AXvk/cool84.mp3, StutteringIsCool,81,Daniele Rossi,,2,True,m,m,True,40.306404936772495,0.0010493993759155
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/ya6WZPxM3ew/cool99.mp3, StutteringIsCool,82,Daniele Rossi,Sarah Bryant,2,True,m,f,True,172.65854090487997,0.0045893788337707
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/7gLFtvbnyhM/mochaccino-and-seesmic.mp3, StutteringIsCool,83,Daniele Rossi,,2,True,m,m,True,10.516774262685194,0.0586332082748413
+ http://feedproxy.google.com/~r/StutteringIsCool/~5/4t6Rp7RHuSI/shovelling-the-driveway.mp3, StutteringIsCool,84,Daniele Rossi,,2,True,m,m,False,24.709506615223507,0.0160925984382629
+ https://stutterrockstar.files.wordpress.com/2013/10/eoisode-110-with-carolina.mp3, WomenWhoStutter,0,Pamela Mertz,eoisode-110-with-carolina,2,True,f,f,True,212.82045585680245,0.0132434368133544
+ https://stutterrockstar.files.wordpress.com/2013/02/episode-100-with-tamara.mp3, WomenWhoStutter,1,Pamela Mertz,tamara,2,True,f,f,True,180.18226986606035,0.0039751529693603
+ https://stutterrockstar.files.wordpress.com/2013/02/episode-101-with-3-ladies.mp3, WomenWhoStutter,2,Pamela Mertz,3-ladies,2,True,f,f,True,97.05976334785584,0.0896409153938293
+ https://stutterrockstar.files.wordpress.com/2013/05/episode-103-w-rachel-mccullough.mp3, WomenWhoStutter,3,Pamela Mertz,episode-103-w-rachel-mccullough,2,True,f,f,True,25.80964441803665,0.0036725401878356
+ https://stutterrockstar.files.wordpress.com/2013/06/episode-104-w-jessica-stone.mp3, WomenWhoStutter,4,Pamela Mertz,episode-104-w-jessica-stone,2,True,f,f,True,25.228728085524686,0.0138788223266601
+ https://stutterrockstar.files.wordpress.com/2013/07/episode-106-with-amey.mp3, WomenWhoStutter,5,Pamela Mertz,amey,2,True,f,f,True,20.143040738307683,0.0087987184524536
+ https://stutterrockstar.files.wordpress.com/2013/08/episode-107-with-rachel-martinez.mp3, WomenWhoStutter,6,Pamela Mertz,rachel-martinez,2,True,f,f,True,247.313691972298,0.0019790530204772
+ https://stutterrockstar.files.wordpress.com/2013/08/episode-108-with-roisin.mp3, WomenWhoStutter,7,Pamela Mertz,roisin,2,True,f,f,True,27.88342674223368,0.0055970549583435
+ https://stutterrockstar.files.wordpress.com/2013/10/episode-109-with-nelly.mp3, WomenWhoStutter,8,Pamela Mertz,nelly,2,True,f,f,True,15.96206353228042,0.0202684998512268
+ https://stutterrockstar.files.wordpress.com/2013/11/episode-111-with-lois-cookie.mp3, WomenWhoStutter,9,Pamela Mertz,lois-cookie,2,True,f,f,True,32.04583109710981,0.0013598799705505
+ https://stutterrockstar.files.wordpress.com/2014/02/episode-113-with-sarah-o.mp3, WomenWhoStutter,10,Pamela Mertz,sarah-o,2,True,f,f,True,253.91992535228712,0.0017958879470825
+ https://stutterrockstar.files.wordpress.com/2014/03/episode-114-with-courteny.mp3, WomenWhoStutter,11,Pamela Mertz,courteny,2,True,f,f,True,25.6885509662634,0.0040487051010131
+ https://stutterrockstar.files.wordpress.com/2014/03/episode-115-with-cora.mp3, WomenWhoStutter,12,Pamela Mertz,cora,2,True,f,f,True,38.04203141823236,0.0074090957641601
+ https://stutterrockstar.files.wordpress.com/2014/05/episode-117-with-jamila.mp3, WomenWhoStutter,13,Pamela Mertz,jamila,2,True,f,f,True,13.725655881752324,0.018530249595642
+ https://stutterrockstar.files.wordpress.com/2014/05/episode-118-with-natalie.mp3, WomenWhoStutter,14,Pamela Mertz,natalie,2,True,f,f,True,269.2453227056573,0.002242088317871
+ https://stutterrockstar.files.wordpress.com/2014/07/episode-122-with-yousra.mp3, WomenWhoStutter,15,Pamela Mertz,yousra,2,True,f,f,True,36.38438969647877,0.0067240595817565
+ https://stutterrockstar.files.wordpress.com/2014/07/episode-123-with-carmen.mp3, WomenWhoStutter,16,Pamela Mertz,carmen,2,True,f,f,False,12.98273515428016,0.0042436718940734
+ https://stutterrockstar.files.wordpress.com/2014/07/episode-124-with-natalie-b.mp3, WomenWhoStutter,17,Pamela Mertz,natalie-b,2,True,f,f,True,30.370208367176463,0.0169265866279602
+ https://stutterrockstar.files.wordpress.com/2014/08/episode-125-with-satu.mp3, WomenWhoStutter,18,Pamela Mertz,satu,2,True,f,f,True,18.57031047049007,0.0304833054542541
+ https://stutterrockstar.files.wordpress.com/2014/08/episode-126-w-christine-b.mp3, WomenWhoStutter,19,Pamela Mertz,episode-126-w-christine-b,2,True,f,f,True,122.2305945759112,0.0478026270866394
+ https://stutterrockstar.files.wordpress.com/2014/08/episode-127-with-annie-b.mp3, WomenWhoStutter,20,Pamela Mertz,annie-b,2,True,f,f,True,11.9549111021633,0.0660101771354675
+ https://stutterrockstar.files.wordpress.com/2014/08/episode-128-with-farah.mp3, WomenWhoStutter,21,Pamela Mertz,farah,2,True,f,f,True,258.53041568722955,0.0010201930999755
+ https://stutterrockstar.files.wordpress.com/2014/09/episode-129-with-lashanda.mp3, WomenWhoStutter,22,Pamela Mertz,lashanda,2,True,f,f,True,25.252758138355432,0.0034850239753723
+ https://stutterrockstar.files.wordpress.com/2014/10/episode-130-with-debbie.mp3, WomenWhoStutter,23,Pamela Mertz,debbie,2,True,f,f,True,45.69838202271429,0.0034648180007934
+ https://stutterrockstar.files.wordpress.com/2014/11/episode-131-with-vanna.mp3, WomenWhoStutter,24,Pamela Mertz,vanna,2,True,f,f,True,21.040977651852387,0.040321946144104
+ https://stutterrockstar.files.wordpress.com/2014/12/episode-132-with-emma.mp3, WomenWhoStutter,25,Pamela Mertz,emma,2,True,f,f,True,24.93567842304473,0.0265781283378601
+ https://stutterrockstar.files.wordpress.com/2015/01/episode-133-with-shilpa.mp3, WomenWhoStutter,26,Pamela Mertz,shilpa,2,True,f,f,True,20.25536398720113,0.0169697999954223
+ https://stutterrockstar.files.wordpress.com/2015/01/episode-134-with-margaret.mp3, WomenWhoStutter,27,Pamela Mertz,margaret,2,True,f,f,True,36.180374111287655,0.0020614266395568
+ https://stutterrockstar.files.wordpress.com/2015/03/episode-136-with-dori.mp3, WomenWhoStutter,28,Pamela Mertz,dori,2,True,f,f,True,23.091492518514453,0.001122236251831
+ https://stutterrockstar.files.wordpress.com/2015/03/episode-137-with-autumn.mp3, WomenWhoStutter,29,Pamela Mertz,autumn,2,True,f,f,True,23.36680552224393,0.0167294144630432
+ https://stutterrockstar.files.wordpress.com/2015/04/episode-138-with-mery.mp3, WomenWhoStutter,30,Pamela Mertz,mery,2,True,f,f,True,229.10616657065663,0.0002942085266113
+ https://stutterrockstar.files.wordpress.com/2015/04/episode-139-with-heidi.mp3, WomenWhoStutter,31,Pamela Mertz,heidi,2,True,f,f,True,20.232152212400127,0.0087994337081909
+ https://stutterrockstar.files.wordpress.com/2015/05/episode-140-with-debbie-riordan.mp3, WomenWhoStutter,32,Pamela Mertz,debbie-riordan,2,True,f,f,True,10.796893378164707,0.062406837940216
+ https://stutterrockstar.files.wordpress.com/2015/07/episode-143-with-samantha-temme.mp3, WomenWhoStutter,33,Pamela Mertz,samantha-temme,2,True,f,f,False,13.389857323980769,0.0940760374069213
+ https://stutterrockstar.files.wordpress.com/2015/08/episode-144-with-briana-p.mp3, WomenWhoStutter,34,Pamela Mertz,briana-p,2,True,f,f,True,245.19961372075304,0.0012323856353759
+ https://stutterrockstar.files.wordpress.com/2015/08/episode-145-with-bernice.mp3, WomenWhoStutter,35,Pamela Mertz,bernice,2,True,f,f,False,16.22068413459335,0.0362889170646667
+ http://stutterrockstar.files.wordpress.com/2015/08/episode-146-with-kelly.mp3, WomenWhoStutter,36,Pamela Mertz,kelly,2,True,f,f,True,10.522318731730351,0.1183187961578369
+ https://stutterrockstar.files.wordpress.com/2015/09/episode-147-with-mona.mp3, WomenWhoStutter,37,Pamela Mertz,mona,2,True,f,f,True,13.85329581437361,0.022076666355133
+ https://stutterrockstar.files.wordpress.com/2016/04/episode-153-with-lisa-costello.mp3, WomenWhoStutter,38,Pamela Mertz,lisa-costello,2,True,f,f,True,19.82070389107616,0.0088301301002502
+ https://stutterrockstar.files.wordpress.com/2016/05/episode-155-with-megan-aldrich.mp3, WomenWhoStutter,39,Pamela Mertz,megan-aldrich,2,True,f,f,True,134.24013189930702,0.0453625917434692
+ https://stutterrockstar.files.wordpress.com/2016/05/episode-156-with-elizabeth-w.mp3, WomenWhoStutter,40,Pamela Mertz,elizabeth-w,2,True,f,f,False,12.216243237709673,0.0653422474861145
+ https://stutterrockstar.files.wordpress.com/2016/06/episode-157-with-haley-mitchem.mp3, WomenWhoStutter,41,Pamela Mertz,haley-mitchem,2,True,f,f,True,12.18848954577062,0.0016413927078247
+ https://stutterrockstar.files.wordpress.com/2016/06/episode-158-with-jennifer-allaby.mp3, WomenWhoStutter,42,Pamela Mertz,jennifer-allaby,2,True,f,f,True,200.2011601061068,0.005376398563385
+ https://stutterrockstar.files.wordpress.com/2016/06/episode-159-with-jaime-habing.mp3, WomenWhoStutter,43,Pamela Mertz,jaime-habing,2,True,f,f,False,26.971996109104992,0.0059364438056945
+ https://stutterrockstar.files.wordpress.com/2016/07/episode-160-with-bailey-palmer.mp3, WomenWhoStutter,44,Pamela Mertz,bailey-palmer,2,True,f,f,True,38.2810555101908,0.007365345954895
+ https://stutterrockstar.files.wordpress.com/2016/08/episode-161-with-lynne-mackie.mp3, WomenWhoStutter,45,Pamela Mertz,lynne-mackie,2,True,f,f,False,12.063857380448232,0.1564960479736328
+ https://stutterrockstar.files.wordpress.com/2016/09/episode-162-with-alex.mp3, WomenWhoStutter,46,Pamela Mertz,alex,2,True,f,f,True,44.181201146545625,0.0010433197021484
+ https://stutterrockstar.files.wordpress.com/2016/09/episode-163-with-chani.mp3, WomenWhoStutter,47,Pamela Mertz,chani,2,True,f,f,True,25.747359592391163,0.0168588757514953
+ https://stutterrockstar.files.wordpress.com/2016/11/episode-165-with-emily-purkey.mp3, WomenWhoStutter,48,Pamela Mertz,emily-purkey,2,True,f,f,True,24.35030410978965,0.0104833841323852
+ https://stutterrockstar.files.wordpress.com/2017/02/episode-166-with-kim-block.mp3, WomenWhoStutter,49,Pamela Mertz,kim-block,2,True,f,f,True,28.65523562866713,0.0101069211959838
+ https://stutterrockstar.files.wordpress.com/2017/02/episode-167-with-hazel.mp3, WomenWhoStutter,50,Pamela Mertz,hazel,2,True,f,f,False,214.93220619211337,0.0799152255058288
+ https://stutterrockstar.files.wordpress.com/2017/03/episode-168-with-hannah-smith.mp3, WomenWhoStutter,51,Pamela Mertz,hannah-smith,2,True,f,f,True,24.323272616003266,0.0188744068145751
+ https://stutterrockstar.files.wordpress.com/2017/03/episode-169-with-yara.mp3, WomenWhoStutter,52,Pamela Mertz,yara,2,True,f,f,True,22.83761602323436,0.0573978424072265
+ https://stutterrockstar.files.wordpress.com/2017/06/episode-170-with-pooja-vijay.mp3, WomenWhoStutter,53,Pamela Mertz,pooja-vijay,2,True,f,f,True,26.7086761134288,0.0083944201469421
+ https://stutterrockstar.files.wordpress.com/2017/09/episode-171-with-catherine.mp3, WomenWhoStutter,54,Pamela Mertz,catherine,2,True,f,f,True,12.5006523825287,0.0565881133079528
+ https://stutterrockstar.files.wordpress.com/2017/11/episode-172-with-jaymie-h.mp3, WomenWhoStutter,55,Pamela Mertz,jaymie-h,2,True,f,f,True,26.5882676733368,0.0053523778915405
+ https://stutterrockstar.files.wordpress.com/2018/04/episode-175-with-rachel-hoge-second-time.mp3, WomenWhoStutter,56,Pamela Mertz,rachel-hoge-second-time,2,True,f,f,True,138.82308583302586,0.018059492111206
+ https://stutterrockstar.files.wordpress.com/2018/04/episode-176-with-lisa-wilder.mp3, WomenWhoStutter,57,Pamela Mertz,lisa-wilder,2,True,f,f,True,204.98425306545,0.0060080289840698
+ https://stutterrockstar.files.wordpress.com/2018/05/episode-177-with-claire-norman.mp3, WomenWhoStutter,58,Pamela Mertz,claire-norman,2,True,f,f,True,58.95131041805152,0.0033714771270751
+ https://stutterrockstar.files.wordpress.com/2018/06/episode-178-with-annie.mp3, WomenWhoStutter,59,Pamela Mertz,annie,2,True,f,f,True,45.02637239473311,0.0032426714897155
+ https://stutterrockstar.files.wordpress.com/2018/06/episode-180-with-petra-a.mp3, WomenWhoStutter,60,Pamela Mertz,petra-a,2,True,f,f,True,38.54713894047609,0.0068082213401794
+ https://stutterrockstar.files.wordpress.com/2018/07/episode-181-with-mikaela.mp3, WomenWhoStutter,61,Pamela Mertz,mikaela,2,True,f,f,True,32.99473758273525,0.004212737083435
+ https://stutterrockstar.files.wordpress.com/2018/07/episode-183-with-emily-anderson.mp3, WomenWhoStutter,62,Pamela Mertz,emily-anderson,2,True,f,f,True,232.75366991260827,0.0067420601844787
+ https://stutterrockstar.files.wordpress.com/2018/08/episode-185-with-natalie-park.mp3, WomenWhoStutter,63,Pamela Mertz,natalie-park,2,True,f,f,True,27.070499587870827,0.0055087208747863
+ https://stutterrockstar.files.wordpress.com/2018/08/episode-186-with-maddy-b.mp3, WomenWhoStutter,64,Pamela Mertz,maddy-b,2,True,f,f,True,24.64755936909816,0.0048953890800476
+ https://stutterrockstar.files.wordpress.com/2018/08/episode-187-with-christine-bsa.mp3, WomenWhoStutter,65,Pamela Mertz,christine-bsa,2,True,f,f,True,18.72674305138244,0.0299605131149292
+ https://stutterrockstar.files.wordpress.com/2018/08/episode-188-with-sarah-albannay.mp3, WomenWhoStutter,66,Pamela Mertz,sarah-albannay,2,True,f,f,True,33.53553898780005,0.0023118257522583
+ https://stutterrockstar.files.wordpress.com/2018/10/episode-191-with-mara-o.mp3, WomenWhoStutter,67,Pamela Mertz,mara-o,2,True,f,f,True,24.44076157466605,0.004963219165802
+ https://stutterrockstar.files.wordpress.com/2018/11/episode-192-with-grace-mcmahon.mp3, WomenWhoStutter,68,Pamela Mertz,grace-mcmahon,2,True,f,f,True,30.73667750844853,0.0119402408599853
+ https://stutterrockstar.files.wordpress.com/2018/11/episode-193-with-hannah-dunn.mp3, WomenWhoStutter,69,Pamela Mertz,hannah-dunn,2,True,f,f,True,39.45932655387458,0.007936418056488
+ https://stutterrockstar.files.wordpress.com/2019/02/episode-194-with-adrienne.mp3, WomenWhoStutter,70,Pamela Mertz,adrienne,2,True,f,f,True,40.44161338601042,0.003858208656311
+ https://stutterrockstar.files.wordpress.com/2019/02/episode-195-with-aileen-q.mp3, WomenWhoStutter,71,Pamela Mertz,aileen-q,2,True,f,f,True,25.358704207278222,0.0127832889556884
+ https://stutterrockstar.files.wordpress.com/2019/03/episode-196-with-yuka.mp3, WomenWhoStutter,72,Pamela Mertz,yuka,2,True,f,f,True,41.25556599271269,0.0037501454353332
+ https://stutterrockstar.files.wordpress.com/2019/04/episode-197-with-madeleine-maccar.mp3, WomenWhoStutter,73,Pamela Mertz,madeleine-maccar,2,True,f,f,True,36.33710080268445,0.0034353733062744
+ https://stutterrockstar.files.wordpress.com/2019/04/episode-198-with-alecia-s-m.mp3, WomenWhoStutter,74,Pamela Mertz,alecia-s-m,2,True,f,f,True,251.5439856279837,0.0023361444473266
+ https://stutterrockstar.files.wordpress.com/2019/05/episode-199-with-anje-herde.mp3, WomenWhoStutter,75,Pamela Mertz,anje-herde,2,True,f,f,True,24.11591107186612,0.0244154930114746
+ https://stutterrockstar.files.wordpress.com/2019/06/episode-201-with-juliette.mp3, WomenWhoStutter,76,Pamela Mertz,juliette,2,True,f,f,True,54.18946035970784,0.0044996738433837
+ https://stutterrockstar.files.wordpress.com/2019/06/episode-202-with-ariel.mp3, WomenWhoStutter,77,Pamela Mertz,ariel,2,True,f,f,True,33.42982902105644,0.0006535649299621
+ https://stutterrockstar.files.wordpress.com/2019/07/episode-203-with-maryann-nelson.mp3, WomenWhoStutter,78,Pamela Mertz,maryann-nelson,2,True,f,f,True,33.6670536019237,0.0088889002799987
+ https://stutterrockstar.files.wordpress.com/2019/07/episode-204-with-pauline.mp3, WomenWhoStutter,79,Pamela Mertz,pauline,2,True,f,f,True,28.98661171105259,0.0037879943847656
+ https://stutterrockstar.files.wordpress.com/2019/08/episode-205-with-danette.mp3, WomenWhoStutter,80,Pamela Mertz,danette,2,True,f,f,True,49.27495452883289,0.0038478970527648
+ https://stutterrockstar.files.wordpress.com/2019/09/episode-206-with-isabell-rennie.mp3, WomenWhoStutter,81,Pamela Mertz,isabell-rennie,2,True,f,f,True,129.5806148821002,0.0039870142936706
+ https://stutterrockstar.files.wordpress.com/2019/09/episode-208-with-kelsey-h.mp3, WomenWhoStutter,82,Pamela Mertz,kelsey-h,2,True,f,f,False,18.73651615225583,0.0341708660125732
+ https://stutterrockstar.files.wordpress.com/2019/11/episode-210-with-dana.mp3, WomenWhoStutter,83,Pamela Mertz,dana,2,True,f,f,False,41.894799758977314,0.0019107460975646
+ https://stutterrockstar.files.wordpress.com/2020/01/episode-212-with-michele-delo.mp3, WomenWhoStutter,84,Pamela Mertz,michele-delo,2,True,f,f,True,36.11823031239501,0.0005539059638977
+ https://stutterrockstar.files.wordpress.com/2020/03/episode-213-pam-solo-march-20.mp3, WomenWhoStutter,85,Pamela Mertz,episode-213-pam-solo-march-20,2,True,f,f,True,9.064422322947332,0.4123207926750183
+ https://stutterrockstar.files.wordpress.com/2020/03/episode-214-pam-on-alone-together.mp3, WomenWhoStutter,86,Pamela Mertz,episode-214-pam-on-alone-together,2,True,f,f,True,41.84237607046428,0.0288406014442443
+ https://stutterrockstar.files.wordpress.com/2020/04/episode-216-with-sam-and-patrick.mp3, WomenWhoStutter,87,Pamela Mertz,sam-and-patrick,2,True,f,f,True,160.60982003243828,0.0142566561698913
+ http://stutterrockstar.files.wordpress.com/2011/10/episode-71-with-megan.mp3, WomenWhoStutter,88,Pamela Mertz,megan,2,True,f,f,True,94.54338614134564,0.0076645612716674
+ http://stutterrockstar.files.wordpress.com/2011/11/episode-72-with-janet.mp3, WomenWhoStutter,89,Pamela Mertz,janet,2,True,f,f,False,19.613189076144387,0.041504681110382
+ http://stutterrockstar.files.wordpress.com/2011/11/episode-73-with-jeni-avi.mp3, WomenWhoStutter,90,Pamela Mertz,jeni-avi,2,True,f,f,True,29.08394935957436,0.0025554895401
+ http://stutterrockstar.files.wordpress.com/2011/12/episode-75-with-kelsey.mp3, WomenWhoStutter,91,Pamela Mertz,kelsey,2,True,f,f,True,39.99715478294822,0.0031542181968688
+ http://stutterrockstar.files.wordpress.com/2011/12/episode-76-with-andrea.mp3, WomenWhoStutter,92,Pamela Mertz,andrea,2,True,f,f,True,33.4381437122209,0.0017859935760498
+ http://stutterrockstar.files.wordpress.com/2012/01/episode-77-w-lotte.mp3, WomenWhoStutter,93,Pamela Mertz,episode-77-w-lotte,2,True,f,f,True,31.221007411284862,0.0286752581596374
+ http://stutterrockstar.files.wordpress.com/2012/01/episode-78-with-fianna.mp3, WomenWhoStutter,94,Pamela Mertz,fianna,2,True,f,f,True,42.96814246151022,0.0042027235031127
+ https://stutterrockstar.files.wordpress.com/2012/01/episode-79-with-jacquelyn.mp3, WomenWhoStutter,95,Pamela Mertz,jacquelyn,2,True,f,f,True,14.065089798103235,0.0131705999374389
+ https://stutterrockstar.files.wordpress.com/2012/02/episode-81-with-vivian.mp3, WomenWhoStutter,96,Pamela Mertz,vivian,2,True,f,f,True,232.51227848003785,0.0052616000175476
+ https://stutterrockstar.files.wordpress.com/2012/02/episode-82-with-jamie.mp3, WomenWhoStutter,97,Pamela Mertz,jamie,2,True,f,f,True,255.65459051532025,0.0009282827377319
+ https://stutterrockstar.files.wordpress.com/2012/05/episode-86-with-emily.mp3, WomenWhoStutter,98,Pamela Mertz,emily,2,True,f,f,True,24.693033417351693,0.0034430623054504
+ https://stutterrockstar.files.wordpress.com/2012/06/episode-87-with-molly.mp3, WomenWhoStutter,99,Pamela Mertz,molly,2,True,f,f,True,298.27708175906776,0.0018349885940551
+ https://stutterrockstar.files.wordpress.com/2012/07/episode-88-with-anna-deeter.mp3, WomenWhoStutter,100,Pamela Mertz,anna-deeter,2,True,f,f,True,31.02340478290171,0.0129423141479492
+ https://stutterrockstar.files.wordpress.com/2012/07/episode-89-with-mandy.mp3, WomenWhoStutter,101,Pamela Mertz,mandy,2,True,f,f,True,267.4072767996016,0.0004385709762573
+ https://stutterrockstar.files.wordpress.com/2012/08/episode-90-with-briana.mp3, WomenWhoStutter,102,Pamela Mertz,briana,2,True,f,f,True,29.67637779166848,0.0107430815696716
+ https://stutterrockstar.files.wordpress.com/2012/09/episode-91-with-annie.mp3, WomenWhoStutter,103,Pamela Mertz,annie,2,True,f,f,True,261.2501591119326,0.0014013051986694
+ https://stutterrockstar.files.wordpress.com/2012/09/episode-92-with-ruth.mp3, WomenWhoStutter,104,Pamela Mertz,ruth,2,True,f,f,True,23.345315033040084,0.0067685842514038
+ https://stutterrockstar.files.wordpress.com/2012/10/episode-93-w-barbara-dahm.mp3, WomenWhoStutter,105,Pamela Mertz,episode-93-w-barbara-dahm,2,True,f,f,True,34.55675812299513,0.0009646415710449
+ https://stutterrockstar.files.wordpress.com/2012/10/episode-94-w-just-pam.mp3, WomenWhoStutter,106,Pamela Mertz,Pamela Mertz,1,True,f,f,False,,0.5974632799625397
+ https://stutterrockstar.files.wordpress.com/2012/11/episode-95-with-caitlyn.mp3, WomenWhoStutter,107,Pamela Mertz,caitlyn,2,True,f,f,True,32.422500972415435,0.0150322914123535
+ https://stutterrockstar.files.wordpress.com/2012/12/episode-96-with-kelsey-smith.mp3, WomenWhoStutter,108,Pamela Mertz,kelsey-smith,2,True,f,f,True,31.667151326295016,0.0120143294334411
+ https://stutterrockstar.files.wordpress.com/2013/01/episode-97-with-chloe-w.mp3, WomenWhoStutter,109,Pamela Mertz,chloe-w,2,True,f,f,True,27.46634007891383,0.0082790851593017
