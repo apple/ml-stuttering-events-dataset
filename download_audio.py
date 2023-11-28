@@ -30,7 +30,7 @@ episode_uri = args.episodes
 wav_dir = args.wavs
 
 # Load episode data
-table = np.loadtxt(episode_uri, dtype=str, delimiter=", ")
+table = np.genfromtxt(episode_uri, dtype=str, delimiter=", ")
 urls = table[:,2]
 n_items = len(urls)
 
