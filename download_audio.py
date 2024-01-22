@@ -63,19 +63,7 @@ for i in range(n_items):
 	if os.path.exists(wav_path):
 		continue
 
-	# print("Processing", show_abrev, ep_idx)
-	# # Download raw audio file. This could be parallelized.
-	# if not os.path.exists(audio_path_orig):
-	# 	print(audio_path_orig)
-	# 	print(episode_url)
-	# 	line = f"wget -O {audio_path_orig} {episode_url}"
-	# 	process = subprocess.Popen([(line)],shell=True)
-	# 	process.wait()
-	# 	if os.path.exists(audio_path_orig):
-	# 		print("Download done")
-	# 	else:
-	# 		print("Download failed")
-
+	#Used a better way to download
 	if not os.path.exists(audio_path_orig):
 		try:
 			response = requests.get(episode_url, stream=True)
@@ -89,12 +77,9 @@ for i in range(n_items):
 			print("Download failed for:", episode_url, "Error:", e)
 			continue  # Skip to the next iteration
 
-	# # Convert to 16khz mono wav file
-	# line = f"ffmpeg -i {audio_path_orig} -ac 1 -ar 16000 {wav_path}"
-	# process = subprocess.Popen([(line)],shell=True)
-	# process.wait()
+	
 		
-	# Convert to 16khz mono wav file
+	# Convert to 16khz mono wav file in a better way
 	command = f"ffmpeg -i \"{audio_path_orig}\" -ac 1 -ar 16000 \"{wav_path}\""
 	process = subprocess.Popen(command, shell=True)
 	process.wait()
