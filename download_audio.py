@@ -18,6 +18,8 @@ import numpy as np
 
 import argparse
 
+import requests
+
 parser = argparse.ArgumentParser(description='Download raw audio files for SEP-28k or FluencyBank and convert to 16k hz mono wavs.')
 parser.add_argument('--episodes', type=str, required=True,
                    help='Path to the labels csv files (e.g., SEP-28k_episodes.csv)')
@@ -30,7 +32,7 @@ episode_uri = args.episodes
 wav_dir = args.wavs
 
 # Load episode data
-table = np.loadtxt(episode_uri, dtype=str, delimiter=", ")
+table = np.genfromtxt(episode_uri, dtype=str, delimiter=", ")
 urls = table[:,2]
 n_items = len(urls)
 
@@ -61,16 +63,40 @@ for i in range(n_items):
 	if os.path.exists(wav_path):
 		continue
 
-	print("Processing", show_abrev, ep_idx)
-	# Download raw audio file. This could be parallelized.
-	if not os.path.exists(audio_path_orig):
-		line = f"wget -O {audio_path_orig} {episode_url}"
-		process = subprocess.Popen([(line)],shell=True)
-		process.wait()
+	# print("Processing", show_abrev, ep_idx)
+	# # Download raw audio file. This could be parallelized.
+	# if not os.path.exists(audio_path_orig):
+	# 	print(audio_path_orig)
+	# 	print(episode_url)
+	# 	line = f"wget -O {audio_path_orig} {episode_url}"
+	# 	process = subprocess.Popen([(line)],shell=True)
+	# 	process.wait()
+	# 	if os.path.exists(audio_path_orig):
+	# 		print("Download done")
+	# 	else:
+	# 		print("Download failed")
 
+	if not os.path.exists(audio_path_orig):
+		try:
+			response = requests.get(episode_url, stream=True)
+			response.raise_for_status()  # Raise an HTTPError for bad requests
+
+			with open(audio_path_orig, 'wb') as file:
+				for chunk in response.iter_content(chunk_size=8192): 
+					file.write(chunk)
+			print("Downloaded successfully:", audio_path_orig)
+		except requests.exceptions.RequestException as e:
+			print("Download failed for:", episode_url, "Error:", e)
+			continue  # Skip to the next iteration
+
+	# # Convert to 16khz mono wav file
+	# line = f"ffmpeg -i {audio_path_orig} -ac 1 -ar 16000 {wav_path}"
+	# process = subprocess.Popen([(line)],shell=True)
+	# process.wait()
+		
 	# Convert to 16khz mono wav file
-	line = f"ffmpeg -i {audio_path_orig} -ac 1 -ar 16000 {wav_path}"
-	process = subprocess.Popen([(line)],shell=True)
+	command = f"ffmpeg -i \"{audio_path_orig}\" -ac 1 -ar 16000 \"{wav_path}\""
+	process = subprocess.Popen(command, shell=True)
 	process.wait()
 
 	# Remove the original mp3/m4a file
